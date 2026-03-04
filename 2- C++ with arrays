@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main (){
+int num[100];
+for (int i=0 ;i<100 ;i++)
+{
+cout << "enter the numbers" << "\n";
+cin >> num[i];
+if (num[i]>=0)
+cout << "it's false"<< "\n" ;
+else 
+cout << "the number is" << num[i] <<"\n";
+}
+}
